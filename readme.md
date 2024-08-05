@@ -1,4 +1,4 @@
-#This projct is all about a 2 way system where:
+# This projct is all about a 2 way system where:
 
 1.  If a person is using a spoken language to communicate then his/her 
 speech is translated to sign language performedby a 3d avatar.
@@ -8,7 +8,7 @@ translated to voice and spoken by the 3d avatar
 
 It is a challenging project with a great opportunity to learn!!!
 
-#Development Process:
+# Development Process:
 
 Dealing with the 1st system first, i.e translating spoken language into sign language!
 
