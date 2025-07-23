@@ -1,38 +1,103 @@
-# This projct is all about a 2 way system where:
+# Resonance - Bidirectional Sign Language Translator
+### Project Overview
+Resonance is an innovative AI-powered communication bridge that enables seamless interaction between hearing and deaf communities through real-time bidirectional translation between spoken language and sign language.
+##
+### Key Features
+This project implements a comprehensive 2-way translation system:
 
-1.  If a person is using a spoken language to communicate then his/her 
-speech is translated to sign language performedby a 3d avatar.
+Speech-to-Sign Translation: Converts spoken language into sign language performed by a realistic 3D avatar
+Sign-to-Speech Translation: Interprets sign language gestures and converts them to natural spoken voice through the avatar
+This challenging project leverages cutting-edge technologies in computer vision, natural language processing, and 3D animation to create an inclusive communication platform.
+##
+### Technology Stack
+Machine Learning: TensorFlow, OpenCV, MediaPipe
+NLP: Speech Recognition, Text Processing
+3D Graphics: Three.js, WebGL
+Backend: Python, Flask/FastAPI
+Frontend: React.js
+Computer Vision: Hand landmark detection, Gesture recognition
+##
+### Development Roadmap
+Phase 1: Speech-to-Sign Language System
+1. Speech Recognition Engine
+ Audio Input Capture: Real-time microphone input processing
+ Preprocessing Pipeline: Noise reduction and audio enhancement
+ Advanced NLP Integration: Implementing state-of-the-art speech recognition models
+ Text Conversion: High-accuracy speech-to-text transformation
+ Component Testing: Validation with diverse accents and speech patterns
+2. Text-to-Sign Language Translation
+ Gesture Dictionary Development: Comprehensive mapping of words/phrases to sign language gestures
+ Context Analysis: Understanding sentence structure and grammar for accurate translation
+ Regional Sign Language Support: Multiple sign language variants (ASL, BSL, etc.)
+ Phrase Optimization: Intelligent grouping of related gestures
+3. 3D Avatar Development & Animation
+ Avatar Modeling: Creating a realistic and expressive 3D character
+ Gesture Library: Comprehensive animation set for sign language vocabulary
+ Animation Blueprint: Modular system for combining individual gestures
+ Control Rig Implementation: Precise hand and finger movement control
+ Facial Expression Integration: Adding emotional context to communications
+4. Real-Time Integration
+ Blueprint Scripting: Dynamic animation triggering system
+ API Development: RESTful services for speech processing and gesture conversion
+ Performance Optimization: Low-latency real-time processing
+ WebSocket Integration: Live communication capabilities
+5. Testing & Quality Assurance
+ Accuracy Testing: Validation with native sign language users
+ Performance Benchmarking: Latency and resource usage optimization
+ User Experience Testing: Accessibility and usability improvements
+ Iterative Refinement: Continuous improvement based on user feedback
+Phase 2: Sign-to-Speech Language System
+1. Computer Vision Engine
+ Hand Detection: Real-time hand tracking using MediaPipe
+ Gesture Recognition: CNN-based sign language classification
+ Sequence Analysis: Understanding multi-gesture phrases and sentences
+ Accuracy Optimization: Achieving >90% recognition accuracy
+2. Sign-to-Text Conversion
+ Gesture Interpretation: Converting visual gestures to textual representation
+ Grammar Processing: Constructing coherent sentences from sign sequences
+ Context Understanding: Maintaining conversation flow and meaning
+3. Text-to-Speech Synthesis
+ Voice Generation: Natural-sounding speech synthesis
+ Avatar Voice Integration: Synchronized lip movement and audio
+ Emotional Tone: Conveying sentiment through voice modulation
+##
+### Current Status
+IN ACTIVE DEVELOPMENT
 
-2.  If a person is using sign-language to communicate his/her signs will be
-translated to voice and spoken by the 3d avatar
+Currently focusing on Phase 1 implementation with the following completed milestones:
 
-It is a challenging project with a great opportunity to learn!!!
+Project architecture and planning
+Technology stack selection
+Basic speech recognition setup
+NLP pipeline development (in progress)
+3D avatar modeling (in progress)
+##
+### Contributing
+We welcome contributions from developers, researchers, and accessibility advocates! Please read our Contributing Guidelines before submitting pull requests.
 
-# Development Process:
+Areas Where We Need Help:
+Sign language expertise and validation
+3D modeling and animation
+Performance optimization
+User interface design
+Accessibility testing
+##
+### Learning Outcomes
+This project provides hands-on experience with:
 
-Dealing with the 1st system first, i.e translating spoken language into sign language!
+Machine Learning: Computer vision, NLP, and deep learning applications
+3D Graphics: Avatar creation, animation, and real-time rendering
+Accessibility Technology: Inclusive design principles and assistive technologies
+Real-time Systems: Low-latency processing and optimization
+Cross-platform Development: Web-based and potentially mobile applications
+##
+### Contact & Support
+Developer: Aditya Singh
+Email: aditya2712singh@gmail.com
+LinkedIn: Connect with me
+##
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Steps Involved:
-1. Developing speech recognition Component
-    1. taking user speech as input 
-    2. Input Processing
-    3. recognizing the speech using advanced NLP techniques 
-    4. converting recognized speech to text for further processing
-    5. Testing the speech recognition component
-2. Developing the text to Sign Language Translation Component
-    (Creating a dictionary that maps words/phrases to corresponding sign language gestures)
-3. Create a 3d Avatar and animating it
-    1. Development of an avatar 
-    2. Adding animations to the avatar for each sign language gesture
-    3. Creating an animation blueprint
-    4. Fine-tune the animations and ensurte accurate hand and finger movements using a control rig
-4. Real time Integration
-    1. Blueprint Scripting: to trigger animations based on the Sign Language Translation Component
-    2. creating API to convert Speech to text and text to sign gestures in real time 
-5. Testing and Iterating
-    1. testing the System with various inputs to ensure accuracy and smooth performance
-    2. Optimizing the system for optimal performance
-    3. Making improvements based on testing feedback
+Building bridges through technology, one gesture at a time.
 
-
-.................................IN DEVELOPMENT ......................................................
